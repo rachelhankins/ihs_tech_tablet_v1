@@ -54,7 +54,7 @@
     width: 65%;
 }
 .text{
-    max-width: 566px
+    max-width: 582px;
 }
 .text .logo_dish img{
     width:76px;
@@ -76,7 +76,7 @@
 .text p{
     color: #171725;
     font-size: 18px;
-    font-family: 'proximanova_regular';
+    font-family: 'proximanova_medium';
     letter-spacing: 0;
     line-height: 24px;
     padding-bottom: 20px;
@@ -138,6 +138,13 @@ justify-content: space-between;
     max-width: 488px;
     border-left: 3px solid #F5F5F6;
 }
+.bottom_section .right_language_toggle{
+    width: 35%;
+    display: block;
+    position: absolute;
+    top: 32px;
+    right: 32px;
+}
 .right .product{
     display: flex;
     justify-content: space-between;
@@ -170,6 +177,7 @@ justify-content: space-between;
     text-decoration: none;
 }
 .language_toggle{
+    color: #171725;
     margin-bottom: 32px;
     display: flex;
     align-items: center;
@@ -182,6 +190,14 @@ justify-content: space-between;
 
 .language_toggle img{
     padding-left: 8px;
+}
+
+.google_nest_logo img {
+    height: 27px;
+}
+
+.linksys_logo img {
+    height: 18px;
 }
 
 .product .description .button img{
@@ -203,7 +219,7 @@ justify-content: space-between;
 .other_right_section p{
     font-size: 16px;
     line-height: 20px;
-    font-family: 'proximanova_regular';
+    font-family: 'proximanova_medium';
     padding-bottom: 16px;
 }
 .other_right_section a.button{
