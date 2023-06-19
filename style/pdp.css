@@ -15,6 +15,12 @@
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: 'proximanova_medium';
+    src: url('../fonts/proximanova_medium_macroman/proximanova-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 .close_btn{
     position: relative;
     z-index: 9999;
@@ -61,6 +67,11 @@
     height:34px;
 }
 
+.right_col .row_copy .linksys_logo {
+    margin:64px 0 32px;
+    height: 18px;
+}
+
 .right_col div{
     width: 496px;
     margin: 0 auto;
@@ -72,7 +83,7 @@
 }
 p, .col_feature span{
     color: #171725;
-    font-family: 'proximanova_regular';
+    font-family: 'proximanova_medium';
     font-size: 14px;
     letter-spacing: 0;
     line-height: 19px;
@@ -90,7 +101,7 @@ h2{
 }
 .disclaimers{
     color: #525261;
-    font-family: "proximanova_regular";
+    font-family: "proximanova_medium";
     font-size: 10px;
     letter-spacing: 0;
     line-height: 14px;
