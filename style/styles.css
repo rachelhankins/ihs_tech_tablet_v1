@@ -168,8 +168,22 @@ justify-content: space-between;
     font-size: 16px;
     line-height: 20px;
     text-decoration: none;
+}
+.language_toggle{
+    margin-bottom: 32px;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    line-height: 20px;
+    text-decoration: none;
+    float:right;
 
 }
+
+.language_toggle img{
+    padding-left: 8px;
+}
+
 .product .description .button img{
     padding-left: 8px;
 }
