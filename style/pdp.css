@@ -51,10 +51,16 @@
     width: 55%;
     border-left: 4px solid #F5F5F6;
 }
-.right_col .row_copy img{
+.right_col .row_copy .logo{
     margin:64px 0 32px ;
     height:64px;
 }
+
+.right_col .row_copy .google_logo {
+    margin:64px 0 32px;
+    height:34px;
+}
+
 .right_col div{
     width: 496px;
     margin: 0 auto;
