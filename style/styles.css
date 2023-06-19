@@ -54,7 +54,7 @@
     width: 65%;
 }
 .text{
-    max-width: 520px
+    max-width: 566px
 }
 .text .logo_dish img{
     width:76px;
@@ -122,6 +122,12 @@ justify-content: space-between;
     margin-right: 8px;
     background-color: #C4C4CA;
 }
+.nav .indicator .grey_long_red{
+    width: 64px;
+    height: 2px;
+    margin-right: 8px;
+    background-color: #E41932;
+}
 .arrows>a img{
     padding-left: 16px;
 }
@@ -170,7 +176,8 @@ justify-content: space-between;
     margin: 32px 16px;
 }
 .other_right_section img{
-    width:236px;
+    /* width:236px; */
+    height:52px;
 }
 .other_right_section h3{
     font-size: 18px;
