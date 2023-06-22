@@ -82,6 +82,13 @@
     width: 496px;
     margin: 0 auto;
 }
+
+.right_col.shp_col {
+    width: 496px;
+    margin: 0 auto;
+    align-items: center;
+}
+
 .row_copy{margin-bottom: 16px;}
 .row_copy video{
     width: 100%;
@@ -139,6 +146,7 @@ h2{
     /* adt */
     .adt_row{
         display: flex;
+        align-items: center;
 
     }
     .adt_img_col{
@@ -158,6 +166,7 @@ h2{
     }
     .adt_row .shp_copy_col p{
         padding: 16px 0;
+        align-items: center;
     }
 
     .adt_row .shp_img_col img{
