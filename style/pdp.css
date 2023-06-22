@@ -144,6 +144,27 @@ h2{
     .adt_img_col{
         width: 50%;
     }
+
+    .shp_img_col {
+        width: 50%;
+    }
+
+    .shp_copy_col {
+        top: 50%;
+    }
+
+    .adt_row .shp_copy_col h3, .adt_row .shp_copy_col p{
+        font-size: 14px;
+    }
+    .adt_row .shp_copy_col p{
+        padding: 16px 0;
+    }
+
+    .adt_row .shp_img_col img{
+        margin: 0 32px 16px 0px;
+        width: 241px;
+    }
+
     .adt_row .adt_img_col img{
         margin: 0 32px 16px 0px;
         width: 241px;
